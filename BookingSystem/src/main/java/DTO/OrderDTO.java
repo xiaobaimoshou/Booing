@@ -66,4 +66,12 @@ public class OrderDTO {
     public void setOrderId(Long orderId) {
         this.orderId = orderId;
     }
+
+    public int getOrderStatus() {
+        return orderStatus;
+    }
+
+    public void setOrderStatus(int orderStatus) {
+        this.orderStatus = orderStatus;
+    }
 }
